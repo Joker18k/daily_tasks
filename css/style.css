@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #f97316;
+}
+
+.header p {
+  color: #aaa;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #facc15;
+}
+.calendar {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.calendar h2 {
+  margin-bottom: 15px;
+  color: #22d3ee;
+  text-align: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.day-name {
+  font-weight: bold;
+  color: #aaa;
+}
+
+.day {
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.day.valid {
+  background: #22c55e;
+  color: #000;
+  font-weight: bold;
+}
+
+.day.flame {
+  background: #f97316;
+  color: #000;
+  font-weight: bold;
+}
+
+.day.golden {
+  background: #facc15;
+  color: #000;
+  font-weight: bold;
+}
+
+.main-tasks,
+.random-tasks,
+.golden-tasks,
+.badges,
+.history {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.main-tasks h2,
+.random-tasks h2,
+.golden-tasks h2,
+.badges h2,
+.history h2 {
+  margin-bottom: 15px;
+  color: #22d3ee;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.task-list i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.golden-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.golden-options button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #facc15;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.badge-grid {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.badge {
+  flex: 1;
+  padding: 10px;
+  background: #2a2a2a;
+  border-radius: 8px;
+  text-align: center;
+  color: #94f;
+}
+
+.history-log li {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #666;
+}
