@@ -8,20 +8,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <script src="./js/scripts.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <h1>🔥 Daily Quest</h1>
+      <h1>Daily Quest</h1>
       <p>Gamifie ta discipline quotidienne</p>
     </header>
 
     <div class="wrapper">
+        <div class="layout">
+      <section class="state-bar">
+  <div class="xp-bar-wrapper">
+    <div class="xp-bar-fill"></div>
+    <div class="xp-bar-text">Niveau 1 — 250 / 500 XP</div>
+  </div>
+</section>
       <section class="stats">
-        <div class="stat-box">🔥 Flammes : <strong>3</strong></div>
-        <div class="stat-box">⭐ XP : <strong>1200</strong></div>
-        <div class="stat-box">🏅 Niveau : <strong>5</strong></div>
+        <div class="stat-box">
+          <i class="fas fa-fire"></i> Streak : <strong>3</strong>
+        </div>
+        <div class="stat-box">
+          <i class="fas fa-star"></i> XP : <strong>100</strong>
+        </div>
+        <div class="stat-box">
+          <i class="fas fa-medal"></i> Niveau : <strong>1</strong>
+        </div>
       </section>
+</div>
       <section class="calendar">
         <h2>📆 Calendrier d'Habitudes</h2>
         <div class="calendar-grid">
@@ -46,8 +61,8 @@
       <section class="main-tasks">
         <h2>✅ Tâches Principales</h2>
         <ul class="task-list">
-          <li><i class="far fa-circle"></i> Boire 1L d'eau</li>
-          <li><i class="far fa-circle"></i> Pause écran 5 min</li>
+          <li><i class="far fa-circle"></i> Boire 5 verres d'eau</li>
+          <li><i class="far fa-circle"></i> Pause écran 1 heure</li>
         </ul>
       </section>
 

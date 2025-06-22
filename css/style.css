@@ -32,7 +32,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background: #1a1a1a;
+  /* background: #1a1a1a; */
   border-radius: 10px;
 }
 
@@ -42,7 +42,12 @@ body {
   gap: 10px;
   margin-bottom: 20px;
 }
-
+.layout {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 .stat-box {
   flex: 1;
   background: #222;
@@ -51,6 +56,39 @@ body {
   text-align: center;
   font-size: 1.2rem;
   color: #facc15;
+}
+.state-bar {
+  margin-bottom: 30px;
+}
+
+.xp-bar-wrapper {
+  position: relative;
+  background: #cecccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.xp-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(to right, #9a9c28, #eed816);
+  /* width: 50%; */
+  transition: width 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.xp-bar-text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 30px;
+  pointer-events: none;
 }
 .calendar {
   background: #1e1e1e;
